@@ -3,6 +3,6 @@
 public class PrimeiroProgama {
     public static void main(String[] args) {
         System.out.println("Hello World");
-        System.out.print("ò meu deus =()");
+        System.out.println("ò meu deus =0");
     }
 }
