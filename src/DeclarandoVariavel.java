@@ -17,6 +17,9 @@ public class DeclarandoVariavel {
         char letra = 'a'; //declara somente UMA letra (utiliza aspas simples)
         String palavra = "Aqui vale tudo";
 
+        //tipo logico
+        boolean logic = true;
+
         System.out.println("Meu nome é " + meunome);
         System.out.println("Minha idade: " + minhaidade + " anos");
     }
