@@ -8,6 +8,5 @@ public class ImparPar {
             resultado = "IMPAR";
         }
         System.out.println(resultado);
-
     }
 }
