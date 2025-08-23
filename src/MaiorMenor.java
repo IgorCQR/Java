@@ -5,6 +5,7 @@ public class MaiorMenor {
         int numero03 = 100;
         int Maior = 0;
         int Menor = 0;
+
         if(numero01 > numero02 && numero02 > numero03){
             Maior = numero01;
             Menor = numero03;

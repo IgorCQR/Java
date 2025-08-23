@@ -4,8 +4,8 @@ public class Operadores {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Digite um numero: "); float numero1 = input.nextInt();
-        System.out.print("Digite outro numero: "); float numero2 = input.nextInt();
+        System.out.print("Digite um numero: "); float numero1 = input.nextFloat();
+        System.out.print("Digite outro numero: "); float numero2 = input.nextFloat();
 
         float soma = numero1 + numero2;
         float diferenca = numero1 - numero2;
