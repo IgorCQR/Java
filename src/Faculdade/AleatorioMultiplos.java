@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Faculdade;
+
 import java.util.Random;
 
 public class AleatorioMultiplos {

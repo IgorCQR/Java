@@ -7,7 +7,7 @@ public class Switch {
         switch (numero) {
             case 0:
                 System.out.println("Dado = 0");
-                break;
+                break; //utilize o BREAK para interromper o SWITCH
             case 1:
                 System.out.println("Dado = 1");
                 break;
