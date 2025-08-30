@@ -12,21 +12,21 @@ public class ConversorNumerico {
         int tamanhoArray = 0;
         int NumeroTemporario = numero;
 
-//        while(NumeroTemporario > 1){
-//            NumeroTemporario = NumeroTemporario / 2;
-//            tamanhoArray += 1;
-//        }
+        while(NumeroTemporario > 0){
+            NumeroTemporario = NumeroTemporario / 2;
+            tamanhoArray += 1;
+        }
         int[] ArraydoBit = new int[tamanhoArray];
 
         switch(option){
             case 1:
-                while(numero > 1){
+                while(numero > 0){
+                    int i = 0;
+                    i += 1;
                     bit = numero % 2;
                     numero = numero / 2;
-                    for(int i = 0; numero > 1; i++){
-                       ArraydoBit[i] = bit;
-                       System.out.print(ArraydoBit[i]);
-                    }
+                    ArraydoBit[i] = bit;
+                    System.out.print(ArraydoBit[i]);
                 }
                 break;
             case 2:

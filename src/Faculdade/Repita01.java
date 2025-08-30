@@ -7,7 +7,7 @@ public class Repita01 {
         Random aleatorio = new Random();
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Numeros aleatórios");
+        System.out.println("Numeros aleatórios (1-30)");
         System.out.print("Quantos números você deseja gerar? "); int maximo = input.nextInt();
 
         int menor = 50;
@@ -28,7 +28,7 @@ public class Repita01 {
                 posicaoMaior = i - 1;
             }
         }
-        System.out.println("O MENOR número gerado foi o " + menor + ". Posição " + posicaoMenor);
-        System.out.println("O MAIOR valor gerado foi o " + maior + ". Posição " + posicaoMaior);
+        System.out.println("O MENOR número gerado foi o " + menor + ". Posição: " + posicaoMenor);
+        System.out.println("O MAIOR valor gerado foi o " + maior + ". Posição: " + posicaoMaior);
     }
 }
