@@ -12,6 +12,7 @@ public class Exercicio02 {
         }else{
             System.out.println("O número informado é negativo");
         }
+        input.close();
     }
 }
 
