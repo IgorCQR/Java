@@ -8,6 +8,9 @@ public class Exercicio08 {
         System.out.print("Qual o horário de inicio da partida? "); int InicioJogo = input.nextInt();
         System.out.print("Que horas a partida terminou? "); int FimJogo = input.nextInt();
 
-        
+        int TempoJogo = FimJogo - InicioJogo;
+        if(TempoJogo < 0){
+           
+        }
     }
 }
