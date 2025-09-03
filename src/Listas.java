@@ -5,7 +5,7 @@ public class Listas {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        List<String> list = new ArrayList();//Trabalhando com lista que permite duplicatas
+        List<String> list = new ArrayList<>();//Trabalhando com lista que permite duplicatas
         list.add("Maça");
         list.add("Banana");
         list.add("Uva");
