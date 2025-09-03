@@ -1,4 +1,3 @@
-package Faculdade;
 import java.util.Scanner;
 
 public class Exercicio12 {
