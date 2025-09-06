@@ -1,5 +1,3 @@
-package Faculdade;
-
 import java.util.Random;
 
 public class NumerosAleatorios {
