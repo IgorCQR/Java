@@ -17,5 +17,6 @@ public class JuntandoPalavras {
         int rand3 = rand.nextInt(tamanhoPalaTRES);
 
         System.out.println(PalavrasUM[rand1] + " " + PalavrasDOIS[rand2] + " " + PalavrasTRES[rand3]);
+
     }
 }
