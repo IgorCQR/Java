@@ -13,7 +13,7 @@ public class Atividade02 {
             resultado = "aprovado";
         }else if(media >= 5 || media < 7){
             resultado = "recuperação";
-        } else if(media < 5){
+        }else{
             resultado = "reprovado";
         }
         System.out.println("Sua média é " + media + " - " + resultado);
