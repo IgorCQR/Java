@@ -5,7 +5,7 @@ um comentario de
 multiplas linhas
    */
 
-public class PrimeiroProgama {
+public class FirstProgram {
     public static void main(String[] args) {
         System.out.println("Hello World");
         System.out.println("ò meu deus :0");
